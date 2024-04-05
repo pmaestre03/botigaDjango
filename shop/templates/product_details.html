@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'shop/css/styles.css' %}">
+
 
          <head>
                   <meta charset="utf-8">
                   <meta name="viewport" content="width=device-width, initial-scale=1">
                   <title>Detalls ded {{producte.nom}}</title>
+                  {% load static %}
+                  <link rel="stylesheet" type="text/css" href="{% static 'shop/css/styles.css' %}">
          </head>
 
-         <body>
+         <body id="details">
                   <h1>Detalls de {{producte.nom}}</h1>
                   <ul>
                            <li> <strong>Descripció:</strong> {{producte.descripcio}} </li>

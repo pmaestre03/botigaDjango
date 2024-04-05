@@ -1,3 +1,15 @@
-body {
-         color: blue;
+#details {
+         background-color: royalblue;
+}
+
+#categories {
+         background-color: lightblue;
+}
+
+#products {
+         background-color: lightgreen;
+}
+
+a:visited {
+         color: purple;
 }
